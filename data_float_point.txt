@@ -1,0 +1,125 @@
+Class,RecordingTime [ms],Time of Day [h:m:s:ms],Trial,Stimulus,Participant,Tracking Ratio [%],Category Group,Category Right,Index Right,Pupil Diameter Right [mm],Point of Regard Right X [px],Point of Regard Right Y [px],AOI Name Right,Gaze Vector Right X,Gaze Vector Right Y,Gaze Vector Right Z
+Anxious,"612656.5",09:16:28:000,Trial001.21_nsap_f.jpg,K717,"67.2",Information,Separator,1,,,,,,,
+Anxious,"612663.8",09:16:28:007,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.9","807.6","537.3",White Space,"0.1","0.3",-1
+Anxious,"612666.8",09:16:28:010,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.9","808.1","534.9",White Space,"0.1","0.3",-1
+Anxious,"612675.1",09:16:28:019,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.8","803.8","534.4",White Space,0,"0.3",-1
+Anxious,"612691.8",09:16:28:035,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.8","803.2","534.1",White Space,"0.1","0.3",-1
+Anxious,"612700.2",09:16:28:044,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.8","801.1","531.5",White Space,0,"0.3",-1
+Anxious,"612708.5",09:16:28:052,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.8","802.2","528.2",White Space,"0.1","0.3","-0.9"
+Anxious,"612716.8",09:16:28:060,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.8","805.3","526.2",White Space,"0.1","0.3","-0.9"
+Anxious,"612725.1",09:16:28:069,Trial001.21_nsap_f.jpg,K717,"67.2",Eye,Fixation,1,"4.8","803.5","524.5",White Space,0,"0.3",-1"
+Anxious,"672350.4",13:22:26:068,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1224.2","807.7",neutral,"0.3","0.1",-1
+Anxious,"672358.8",13:22:26:076,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1221.4","805.3",neutral,"0.3","0.1",-1
+Anxious,672367.13:22:26:085,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1220.6","800.9",neutral,"0.3","0.2",-1
+Anxious,"672375.4",13:22:26:093,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1219.1","807.1",neutral,"0.3","0.1",-1
+Anxious,"672383.7",13:22:26:101,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1217.1","801.4",neutral,"0.2","0.2",-1
+Anxious,"672392.1",13:22:26:110,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1215.6","806.7",neutral,"0.3","0.2",-1
+Anxious,"672400.4",13:22:26:118,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1214.8","804.4",neutral,"0.3","0.1",-1
+Anxious,"672408.8",13:22:26:126,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9",1216,"805.1",neutral,"0.3","0.1",-1
+Anxious,"672417.1",13:22:26:135,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1218.1","803.5",neutral,"0.3","0.1",-1
+Anxious,"672425.5",13:22:26:143,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"3.9","1218.2","807.1",neutral,"0.3","0.2",-1
+Anxious,"672433.7",13:22:26:151,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1217.7","806.2",neutral,"0.3","0.1",-1
+Anxious,"672442.1",13:22:26:160,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1182.7","804.9",neutral,"0.2","0.1",-1
+Anxious,"672450.5",13:22:26:168,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1171.8","813.2",neutral,"0.2","0.1",-1
+Anxious,"672458.9",13:22:26:176,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,1178,"813.1",neutral,"0.2","0.1",-1
+Anxious,"672475.5",13:22:26:193,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"4.1","1187.3",814,neutral,"0.2","0.1",-1
+Anxious,"672483.9",13:22:26:201,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"4.1","1176.5","815.5",neutral,"0.2","0.1",-1
+Anxious,"672492.2",13:22:26:210,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"4.1","1181.3","818.2",neutral,"0.2","0.1",-1
+Anxious,"672508.9",13:22:26:226,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"4.1","1180.2","816.9",neutral,"0.2","0.1",-1
+Anxious,"672517.3",13:22:26:235,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"4.1","1173.4","819.6",neutral,"0.2","0.1",-1
+Anxious,"672525.5",13:22:26:243,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1175.5","820.9",neutral,"0.2","0.1",-1
+Anxious,"672533.9",13:22:26:251,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16,"4.1","1171.6","823.1",neutral,"0.2","0.2",-1
+Anxious,"672542.2",13:22:26:260,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1171.2","820.8",neutral,"0.2","0.2",-1
+Anxious,"672550.6",13:22:26:268,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,1170,"823.5",neutral,"0.2","0.1",-1
+Anxious,"672558.9",13:22:26:276,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1171.1","822.3",neutral,"0.2","0.1",-1
+Anxious,"672567.3",13:22:26:285,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1173.6","819.9",neutral,"0.2","0.1",-1
+Anxious,"672575.6",13:22:26:293,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,16.4,"1171.5","821.5",neutral,"0.2","0.1",-1
+Anxious,672584.13:22:26:302,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,17.4,"1175.6","816.6",neutral,"0.2","0.2",-1
+Anxious,"672592.2",13:22:26:310,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,17.4,"1160.3","812.4",neutral,"0.2","0.2",-1
+Anxious,"672600.6",13:22:26:318,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,17,"4.1","972.2","779.5",White Space,"0.1","0.2",-1
+Anxious,672609.13:22:26:327,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,17.4,"852.5","684.8",White Space,"0.1","0.2",-1
+Anxious,"672617.4",13:22:26:335,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,17.4,"784.5","622.1",White Space,0,"0.3",-1
+Anxious,672634.13:22:26:352,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,17.4,"570.5",534,White Space,"-0.1","0.3",-1
+Anxious,"672642.4",13:22:26:360,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,17.4,"563.8","413.5",angry,"-0.1","0.3","-0.9"
+Anxious,"672650.7",13:22:26:368,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9",571,"398.6",angry,0,"0.4","-0.9"
+Anxious,672659.13:22:26:377,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","566.9",389,angry,"-0.1","0.4","-0.9"
+Anxious,"672667.4",13:22:26:385,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","555.9","382.5",angry,"-0.1","0.4","-0.9"
+Anxious,"672675.8",13:22:26:393,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","557.1","386.5",angry,"-0.1","0.4","-0.9"
+Anxious,672684.13:22:26:401,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","549.7","370.7",angry,"-0.1","0.4","-0.9"
+Anxious,"672692.4",13:22:26:410,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","558.5","351.5",angry,"-0.1","0.4","-0.9"
+Anxious,"672700.7",13:22:26:418,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","549.4","374.2",angry,"-0.1","0.4","-0.9"
+Anxious,"672709.1",13:22:26:427,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17.4,"544.5","369.2",angry,"-0.1","0.4","-0.9"
+Anxious,"672717.4",13:22:26:435,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","532.8","380.2",angry,"-0.1","0.4","-0.9"
+Anxious,"672725.8",13:22:26:443,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","531.1","353.6",angry,"-0.1","0.4","-0.9"
+Anxious,"672734.1",13:22:26:452,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","531.6",350,angry,"-0.1","0.4","-0.9"
+Anxious,"672742.5",13:22:26:460,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,17,"3.9","528.1","357.1",angry,"-0.1","0.4","-0.9"
+Anxious,"672750.8",13:22:26:468,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,18,"3.9","520.1","354.5",angry,"-0.1","0.4","-0.9"
+Anxious,"672759.1",13:22:26:477,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18,"3.9","516.8","356.8",angry,"-0.1","0.4","-0.9"
+Anxious,"672767.5",13:22:26:485,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18,"3.9",514,"353.9",angry,"-0.1","0.4","-0.9"
+Anxious,"672775.9",13:22:26:493,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18,"3.9","508.3",363,angry,"-0.1","0.4","-0.9"
+Anxious,"672784.1",13:22:26:502,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18,"3.9","507.2","345.7",angry,"-0.1","0.4","-0.9"
+Anxious,"672792.5",13:22:26:510,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18,"3.9",501,"347.6",angry,"-0.1","0.4","-0.9"
+Anxious,"672800.8",13:22:26:518,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18.4,500,"343.7",angry,"-0.1","0.4","-0.9"
+Anxious,"672809.3",13:22:26:527,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18.4,"494.6","341.1",angry,"-0.1","0.4","-0.9"
+Anxious,"672817.5",13:22:26:535,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18.4,"490.1","344.3",angry,"-0.1","0.4","-0.9"
+Anxious,"672825.9",13:22:26:543,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18.4,"484.7","349.9",angry,"-0.1","0.4","-0.9"
+Anxious,"672834.2",13:22:26:552,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,18.4,"493.9","339.4",angry,"-0.1","0.4","-0.9"
+Anxious,"672842.5",13:22:26:560,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Saccade,19.4,"482.6","328.4",angry,"-0.1","0.4","-0.9"
+Anxious,"672859.2",13:22:26:577,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"485.5","223.2",angry,"-0.1","0.4","-0.9"
+Anxious,"672875.9",13:22:26:593,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"485.9","240.6",angry,"-0.1","0.4","-0.9"
+Anxious,"672884.3",13:22:26:602,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,487,"245.2",angry,"-0.1","0.4","-0.9"
+Anxious,"672892.6",13:22:26:610,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"488.7","247.4",angry,"-0.1","0.4","-0.9"
+Anxious,672901.13:22:26:619,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"495.8","243.9",angry,"-0.1","0.4","-0.9"
+Anxious,"672909.2",13:22:26:627,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"497.3","242.8",angry,"-0.1","0.4","-0.9"
+Anxious,"672917.6",13:22:26:635,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"501.8","242.3",angry,"-0.1","0.4","-0.9"
+Anxious,672926.13:22:26:644,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"501.5","239.7",angry,"-0.1","0.4","-0.9"
+Anxious,"672934.4",13:22:26:652,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"497.9",240,angry,"-0.1","0.4","-0.9"
+Anxious,"672942.6",13:22:26:660,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"502.9","234.3",angry,"-0.1","0.4","-0.9"
+Anxious,672951.13:22:26:669,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"502.8","235.8",angry,"-0.1","0.4","-0.9"
+Anxious,"672959.3",13:22:26:677,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"501.8","234.3",angry,"-0.1","0.4","-0.9"
+Anxious,"672967.7",13:22:26:685,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"503.1","235.3",angry,"-0.1","0.4","-0.9"
+Anxious,672976.13:22:26:694,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"502.6","235.2",angry,"-0.1","0.4","-0.9"
+Anxious,"672984.4",13:22:26:702,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"501.6","233.6",angry,"-0.1","0.4","-0.9"
+Anxious,"672992.7",13:22:26:710,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"494.1","234.2",angry,"-0.1","0.4","-0.9"
+Anxious,673001.13:22:26:719,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"495.6","234.7",angry,"-0.1","0.4","-0.9"
+Anxious,"673009.4",13:22:26:727,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"491.7","236.8",angry,"-0.1","0.4","-0.9"
+Anxious,"673017.7",13:22:26:735,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"492.5","239.4",angry,"-0.1","0.4","-0.9"
+Anxious,"673026.1",13:22:26:744,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"494.1","240.3",angry,"-0.1","0.4","-0.9"
+Anxious,"673034.4",13:22:26:752,Trial011.1_aspn_f.jpg,K718,"91.1",Eye,Fixation,19.4,"492.8","245.9",angry,"-0.1","0.4","-0.9"
+Control,"33880477.5",17:47:19:586,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7.4,"377.2","921.5",sad,"-0.2","0.1",-1
+Control,"33880485.9",17:47:19:594,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7.4,378,"922.5",sad,"-0.2","0.1",-1
+Control,"33880494.1",17:47:19:603,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7.4,"379.3","920.5",sad,"-0.2","0.1",-1
+Control,"33880502.5",17:47:19:611,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7.4,"378.6","920.5",sad,"-0.2","0.1",-1
+Control,"33880510.9",17:47:19:619,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7.4,"376.9","921.3",sad,"-0.2","0.1",-1
+Control,"33880519.4",17:47:19:628,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7.4,"373.7",923,sad,"-0.2","0.1",-1
+Control,"33880527.5",17:47:19:636,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7.4,"368.7","923.6",sad,"-0.2","0.1",-1
+Control,"33880535.9",17:47:19:644,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7,"4.1","364.3","922.3",sad,"-0.2","0.1",-1
+Control,"33880544.2",17:47:19:653,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7,"4.1",362,"925.4",sad,"-0.2","0.1",-1
+Control,"33880552.5",17:47:19:661,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7,"4.1","361.2","922.9",sad,"-0.2","0.1",-1
+Control,"33880560.9",17:47:19:669,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7,"4.1","358.2","923.3",sad,"-0.2","0.1",-1
+Control,"33880569.2",17:47:19:678,Trial002.15_pasn_f.jpg,ID_2103_1,"95.1",Eye,Fixation,7,"4.1","355.1","921.1",sad,"-0.2","0.1",-1
+Depressive,"15171388.4",14:04:42:023,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.4","1216.4","809.4",neutral,"0.3","0.2","-0.9"
+Depressive,"15171396.7",14:04:42:031,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.4","1216.2","805.1",neutral,"0.3","0.2","-0.9"
+Depressive,"15171405.1",14:04:42:040,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.4","1214.1","807.2",neutral,"0.3","0.2","-0.9"
+Depressive,"15171413.4",14:04:42:048,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.4",1213,"801.2",neutral,"0.3","0.2","-0.9"
+Depressive,"15171421.7",14:04:42:056,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.5","1210.3","800.9",neutral,"0.3","0.2","-0.9"
+Depressive,"15171430.1",14:04:42:065,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.5",1209.800,neutral,"0.3","0.2","-0.9"
+Depressive,"15171438.5",14:04:42:073,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.5","1211.6",798,neutral,"0.3","0.2","-0.9"
+Depressive,"15171446.7",14:04:42:081,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,17,"3.5","1213.2","799.8",neutral,"0.3","0.2","-0.9"
+Depressive,"15172205.9",14:04:42:840,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,19,"3.4","421.7","821.1",angry,"-0.2","0.2",-1
+Depressive,"15172214.2",14:04:42:849,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,19,"3.4","409.3","824.3",angry,"-0.2","0.2",-1
+Depressive,"15172222.6",14:04:42:857,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,19,"3.4","413.1","826.8",angry,"-0.2","0.2",-1
+Depressive,15172231.14:04:42:865,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,19,"3.4","412.6","825.7",angry,"-0.2","0.2",-1
+Depressive,"15172239.2",14:04:42:874,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,19,"3.4","415.4","826.2",angry,"-0.2","0.2",-1
+Depressive,"15172247.6",14:04:42:882,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,19,"3.3","414.6","824.3",angry,"-0.2","0.2",-1
+Depressive,15172256.14:04:42:891,Trial006.7_span_f.jpg,WD220,"86.6",Eye,Fixation,19,"3.3","415.3",822,angry,"-0.2","0.2",-1
+Depressive,"1156400.7",10:23:04:775,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.3","1216.3","205.9",neutral,"0.3","0.4","-0.9"
+Depressive,"1156409.1",10:23:04:784,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2","1215.2","206.8",neutral,"0.3","0.4","-0.9"
+Depressive,"1156417.4",10:23:04:792,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2","1215.3","206.7",neutral,"0.3","0.4","-0.9"
+Depressive,"1156425.7",10:23:04:800,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2","1215.3","207.2",neutral,"0.3","0.4","-0.9"
+Depressive,"1156434.1",10:23:04:809,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2",1215,"205.3",neutral,"0.3","0.5","-0.8"
+Depressive,"1156442.4",10:23:04:817,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2","1215.1","205.9",neutral,"0.3","0.4","-0.9"
+Depressive,"1156450.8",10:23:04:825,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2",1215.206,neutral,"0.3","0.4","-0.9"
+Depressive,"1156459.1",10:23:04:834,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2","1216.4","206.6",neutral,"0.3","0.4","-0.9"
+Depressive,"1156467.4",10:23:04:842,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2","1218.1","206.1",neutral,"0.3","0.4","-0.8"
+Depressive,"1156475.8",10:23:04:850,Trial003.5_ansp_f.jpg,WD221,"98.3",Eye,Fixation,20,"4.2","1220.6","206.2",neutral,"0.3","0.4","-0.8"
