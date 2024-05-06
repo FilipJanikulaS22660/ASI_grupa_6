@@ -1,0 +1,40 @@
+[build-system]
+requires = [ "setuptools",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asi_grupa_6"
+readme = "README.md"
+dynamic = [ "dependencies", "version",]
+
+[project.scripts]
+asi-grupa-6 = "asi_grupa_6.__main__:main"
+
+[tool.kedro]
+package_name = "asi_grupa_6"
+project_name = "ASI_grupa_6"
+kedro_init_version = "0.19.5"
+tools = [ "Linting",]
+example_pipeline = "True"
+source_dir = "src"
+
+[tool.ruff]
+line-length = 88
+show-fixes = true
+select = [ "F", "W", "E", "I", "UP", "PL", "T201",]
+ignore = [ "E501",]
+
+[project.entry-points."kedro.hooks"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.setuptools.dynamic.dependencies]
+file = "requirements.txt"
+
+[tool.setuptools.dynamic.version]
+attr = "asi_grupa_6.__version__"
+
+[tool.setuptools.packages.find]
+where = [ "src",]
+namespaces = false
