@@ -1,40 +1,69 @@
 [build-system]
-requires = [ "setuptools",]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "asi_grupa_6"
+name = "heart_disease"
 readme = "README.md"
-dynamic = [ "dependencies", "version",]
+dynamic = ["dependencies", "version"]
 
 [project.scripts]
-asi-grupa-6 = "asi_grupa_6.__main__:main"
-
-[tool.kedro]
-package_name = "asi_grupa_6"
-project_name = "ASI_grupa_6"
-kedro_init_version = "0.19.5"
-tools = [ "Linting",]
-example_pipeline = "True"
-source_dir = "src"
-
-[tool.ruff]
-line-length = 88
-show-fixes = true
-select = [ "F", "W", "E", "I", "UP", "PL", "T201",]
-ignore = [ "E501",]
+heart-disease = "heart_disease.__main__:main"
 
 [project.entry-points."kedro.hooks"]
+
+[project.optional-dependencies]
+docs = [
+    "docutils<0.18.0",
+    "sphinx~=3.4.3",
+    "sphinx_rtd_theme==0.5.1",
+    "nbsphinx==0.8.1",
+    "sphinx-autodoc-typehints==1.11.1",
+    "sphinx_copybutton==0.3.1",
+    "ipykernel>=5.3, <7.0",
+    "Jinja2<3.1.0",
+    "myst-parser~=0.17.2",
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+version = {attr = "heart_disease.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.kedro]
+package_name = "heart_disease"
+project_name = "heart-disease"
+kedro_init_version = "0.19.5"
+tools = ['Linting', 'Testing', 'Custom Logging', 'Documentation', 'Data Structure', 'PySpark', 'Kedro Viz']
+example_pipeline = "False"
+source_dir = "src"
+
+[tool.pytest.ini_options]
+addopts = """
+--cov-report term-missing \
+--cov src/heart_disease -ra"""
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
 
 [tool.ruff.format]
 docstring-code-format = true
 
-[tool.setuptools.dynamic.dependencies]
-file = "requirements.txt"
-
-[tool.setuptools.dynamic.version]
-attr = "asi_grupa_6.__version__"
-
-[tool.setuptools.packages.find]
-where = [ "src",]
-namespaces = false
+[tool.ruff]
+line-length = 88
+show-fixes = true
+select = [
+    "F",   # Pyflakes
+    "W",   # pycodestyle
+    "E",   # pycodestyle
+    "I",   # isort
+    "UP",  # pyupgrade
+    "PL",  # Pylint
+    "T201", # Print Statement
+]
+ignore = ["E501"]  # Ruff format takes care of line-too-long
