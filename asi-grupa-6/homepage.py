@@ -1,3 +1,5 @@
+import sqlite3
+
 import streamlit as st
 import pandas as pd
 from autogluon.tabular import TabularPredictor
@@ -5,6 +7,14 @@ from kedro.framework.session import KedroSession
 from kedro.framework.startup import bootstrap_project
 from pathlib import Path
 import numpy as np
+
+DATABASE_PATH = 'session_store.db'
+
+def fetch_data_from_db(query, params=()):
+    with sqlite3.connect(DATABASE_PATH) as conn:
+        df = pd.read_sql_query(query, conn, params=params)
+    return df
+
 
 # Uzyskanie ścieżki do katalogu głównego projektu
 project_path = Path(__file__).resolve().parent
