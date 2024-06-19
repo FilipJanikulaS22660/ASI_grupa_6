@@ -11,15 +11,3 @@ pytest-cov~=3.0
 pytest-mock>=1.7.1, <2.0
 ruff~=0.1.8
 setuptools; python_version >= "3.12"
-pyspark
-autogluon
-wandb
-streamlit
-openpyxl
-numpy
-pandas
-python-multipart
-psycopg2-binary
-matplotlib
-scikit-learn
-seaborn

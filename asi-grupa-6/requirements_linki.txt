@@ -1,0 +1,351 @@
+absl-py==2.1.0
+accelerate==0.21.0
+aiobotocore==2.13.0
+aiofiles==22.1.0
+aiohttp==3.9.5
+aiohttp-cors==0.7.0
+aioitertools==0.11.0
+aiosignal==1.3.1
+aiosqlite==0.20.0
+aliyun-python-sdk-core==2.15.1
+aliyun-python-sdk-kms==2.16.3
+annotated-types==0.7.0
+antlr4-python3-runtime==4.9.3
+anyio==3.7.1
+appdirs==1.4.4
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+async-lru==2.0.4
+async-timeout==4.0.3
+autogluon==1.1.0
+autogluon.common==1.1.0
+autogluon.core==1.1.0
+autogluon.features==1.1.0
+autogluon.multimodal==1.1.0
+autogluon.tabular==1.1.0
+autogluon.timeseries==1.1.0
+Babel==2.15.0
+beautifulsoup4==4.12.3
+binaryornot==0.4.4
+bleach==6.1.0
+blis==0.7.11
+boto3==1.34.113
+botocore==1.34.113
+build==1.2.1
+catalogue==2.0.10
+catboost==1.1.1
+certifi==2024.2.2
+cffi==1.16.0
+chardet==5.2.0
+click-default-group==1.2.4
+cloudpathlib==0.16.0
+cloudpickle==3.0.0
+colorama==0.4.6
+coloredlogs==15.0.1
+colorful==0.5.6
+confection==0.1.4
+contourpy==1.2.1
+cookiecutter==2.6.0
+coverage==7.5.1
+crcmod==1.7
+cryptography==42.0.7
+cycler==0.12.1
+cymem==2.0.8
+datasets==2.19.1
+defusedxml==0.7.1
+dill==0.3.8
+distlib==0.3.8
+dnspython==2.6.1
+docker-pycreds==0.4.0
+docopt==0.6.2
+dynaconf==3.2.5
+email_validator==2.1.1
+entrypoints==0.4
+et-xmlfile==1.1.0
+evaluate==0.4.2
+fastai==2.7.15
+fastapi==0.111.0
+fastapi-cli==0.0.4
+fastcore==1.5.41
+fastdownload==0.0.7
+fastjsonschema==2.19.1
+fastprogress==1.0.3
+filelock==3.14.0
+flatbuffers==24.3.25
+fonttools==4.51.0
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2023.12.2
+future==1.0.0
+gdown==5.2.0
+gluonts==0.14.3
+google-api-core==2.19.0
+google-auth==2.29.0
+googleapis-common-protos==1.63.0
+graphql-core==3.2.3
+graphviz==0.20.3
+grpcio==1.64.0
+h11==0.14.0
+hdfs==2.7.3
+httpcore==1.0.5
+httptools==0.6.1
+httpx==0.27.0
+huggingface-hub==0.23.2
+humanfriendly==10.0
+hyperopt==0.2.7
+imageio==2.34.1
+iniconfig==2.0.0
+ipython==8.24.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.2
+isoduration==20.11.0
+jmespath==0.10.0
+joblib==1.4.2
+json5==0.9.25
+jsonpointer==2.4
+jsonschema==4.21.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.10.0
+jupyter-lsp==2.2.5
+jupyter-ydoc==0.2.5
+jupyter_client==7.4.9
+
+jupyter_server==2.14.0
+jupyter_server_fileid==0.9.2
+jupyter_server_terminals==0.5.3
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.7
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.27.1
+jupyterlab_widgets==3.0.10
+kedro==0.19.5
+kedro-datasets==3.0.0
+kedro-telemetry==0.4.0
+kedro-viz==6.7.0
+kiwisolver==1.4.5
+langcodes==3.4.0
+language_data==1.2.0
+lazy_loader==0.4
+lightgbm==4.3.0
+lightning==2.1.4
+lightning-utilities==0.11.2
+llvmlite==0.42.0
+marisa-trie==1.1.1
+Markdown==3.6
+markdown-it-py @ file:///home/conda/feedstock_root/build_artifacts/markdown-it-py_1686175045316/work
+MarkupSafe @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a84ni4pci8/croot/markupsafe_1704206002077/work
+matplotlib==3.9.0
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1713250518406/work
+mdurl @ file:///home/conda/feedstock_root/build_artifacts/mdurl_1704317613764/work
+mistune==3.0.2
+mlforecast==0.10.0
+model-index==0.1.11
+more-itertools==10.2.0
+mpmath==1.3.0
+msgpack==1.0.8
+multidict==6.0.5
+multiprocess==0.70.16
+murmurhash==1.0.10
+nbclassic==1.0.0
+nbclient==0.10.0
+nbconvert==7.16.4
+nbformat==5.10.4
+nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
+networkx==3.3
+nlpaug==1.1.11
+nltk==3.8.1
+notebook==6.5.7
+notebook_shim==0.2.4
+nptyping==2.4.1
+numba==0.59.1
+numexpr @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_45yefq0kt6/croot/numexpr_1696515289183/work
+numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a51i_mbs7m/croot/numpy_and_numpy_base_1708638620867/work/dist/numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl#sha256=c4b11b3c4d4fdb810039503fe01f311ade06cd1d675fcd6d208800a393f19b69
+nvidia-ml-py3==7.352.0
+omegaconf==2.2.3
+onnx==1.16.1
+onnxruntime==1.18.0
+opencensus==0.11.4
+opencensus-context==0.1.3
+opendatalab==0.0.10
+openmim==0.3.9
+openpyxl==3.1.2
+openxlab==0.1.0
+optimum==1.18.1
+ordered-set==4.1.0
+orjson==3.10.3
+oss2==2.17.0
+overrides==7.7.0
+packaging==24.0
+pandas @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_b53hgou29t/croot/pandas_1718308972393/work/dist/pandas-2.2.2-cp310-cp310-macosx_11_0_arm64.whl#sha256=7e70989ec6c6e08f2fd87d3940d106704e9feb936002297690d7462e35b5da35
+pandocfilters==1.5.1
+parse==1.20.1
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
+patsy==0.5.6
+pdf2image==1.17.0
+pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1706113125309/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+pillow @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_bdozlpra65/croot/pillow_1714398852206/work
+pkgutil_resolve_name @ file:///home/conda/feedstock_root/build_artifacts/pkgutil-resolve-name_1694617248815/work
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1715777629804/work
+plotly==5.22.0
+pluggy==1.3.0
+pre-commit-hooks==4.6.0
+preshed==3.0.9
+prometheus_client==0.20.0
+prompt-toolkit==3.0.43
+proto-plus==1.23.0
+protobuf==3.20.3
+psutil @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_1310b568-21f4-4cb0-b0e3-2f3d31e39728k9coaga5/croots/recipe/psutil_1656431280844/work
+ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+py-spy==0.3.14
+py4j==0.10.9.7
+pyarrow @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_7dissav55a/croot/pyarrow_1707330837493/work/python
+pyarrow-hotfix==0.6
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pycparser==2.22
+pycryptodome==3.20.0
+pydantic==1.10.15
+pydantic_core==2.18.2
+pydeck @ file:///home/conda/feedstock_root/build_artifacts/pydeck_1667589451974/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
+pyparsing==3.1.2
+pyproject_hooks==1.1.0
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+pyspark==3.5.1
+pytesseract==0.3.10
+pytest==7.4.4
+pytest-cov==3.0.0
+pytest-mock==1.13.0
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+python-dotenv==1.0.1
+python-json-logger==2.0.7
+python-multipart==0.0.9
+python-slugify==8.0.4
+pytoolconfig==1.3.1
+pytorch-lightning==2.1.4
+pytorch-metric-learning==2.3.0
+pytz==2023.4
+PyWavelets==1.6.0
+PyYAML @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a8_sdgulmz/croot/pyyaml_1698096054705/work
+pyzmq @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_43pxpbos3z/croot/pyzmq_1705605108344/work
+qtconsole==5.5.2
+QtPy==2.4.1
+ray==2.10.0
+referencing @ file:///home/conda/feedstock_root/build_artifacts/referencing_1714619483868/work
+regex==2024.5.15
+requests==2.28.2
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rich==13.4.2
+rope==1.13.0
+rpds-py @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_f8jkozoefm/croot/rpds-py_1698945944860/work
+rsa==4.9
+ruamel.yaml==0.18.6
+ruamel.yaml.clib==0.2.8
+ruff==0.1.8
+s3fs==2023.12.2
+s3transfer==0.10.1
+safetensors==0.4.3
+scikit-image==0.20.0
+scikit-learn==1.4.0
+scipy==1.12.0
+seaborn==0.12.2
+secure==0.3.0
+Send2Trash==1.8.3
+sentencepiece==0.2.0
+sentry-sdk==2.3.1
+seqeval==1.2.2
+setproctitle==1.3.3
+shellingham==1.5.4
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+smart-open==6.4.0
+smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1634310307496/work
+sniffio==1.3.1
+soupsieve==2.5
+spacy==3.7.4
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+SQLAlchemy==2.0.30
+srsly==2.4.8
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+starlette==0.37.2
+statsforecast==1.4.0
+statsmodels==0.14.2
+strawberry-graphql==0.229.1
+streamlit @ file:///home/conda/feedstock_root/build_artifacts/streamlit_1716578285980/work
+sympy==1.12
+tabulate==0.9.0
+tenacity @ file:///home/conda/feedstock_root/build_artifacts/tenacity_1715217510152/work
+tensorboard==2.16.2
+tensorboard-data-server==0.7.2
+tensorboardX==2.6.2.2
+terminado==0.18.1
+text-unidecode==1.3
+thinc==8.2.3
+threadpoolctl==3.5.0
+tifffile==2024.5.22
+timm==0.9.16
+tinycss2==1.3.0
+tokenizers==0.15.2
+toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
+tomli==2.0.1
+toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1706112571092/work
+toposort==1.10
+torch==2.1.2
+torchmetrics==1.2.1
+torchvision==0.16.2
+tornado @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3a5nrn2jeh/croot/tornado_1696936974091/work
+tqdm==4.65.2
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
+transformers==4.38.2
+typer==0.9.4
+types-python-dateutil==2.9.0.20240316
+typing_extensions==4.11.0
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1707747584337/work
+tzlocal @ file:///home/conda/feedstock_root/build_artifacts/tzlocal_1628866601165/work
+ujson==5.10.0
+uri-template==1.3.0
+urllib3==1.26.18
+utilsforecast==0.0.10
+uvicorn==0.22.0
+uvloop==0.19.0
+validators @ file:///home/conda/feedstock_root/build_artifacts/validators_1716893826030/work
+virtualenv==20.26.2
+wandb==0.17.0
+wasabi==1.1.2
+watchdog @ file:///Users/builder/cbouss/crwatchdog/watchdog_1717177010913/work
+watchfiles==0.21.0
+watchgod==0.8.2
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1704731205417/work
+weasel==0.3.4
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.8.0
+websockets==12.0
+Werkzeug==3.0.3
+widgetsnbextension==4.0.10
+window_ops==0.0.15
+wrapt==1.16.0
+xgboost==2.0.3
+xxhash==3.4.1
+y-py==0.6.2
+yarl==1.9.4
+ypy-websocket==0.8.4
+zipp==3.18.2
+ipython>=8.10
+jupyterlab>=3.0
+kedro~=0.19.5
+kedro-datasets>=3.0; python_version >= "3.9"
+kedro-datasets>=1.0; python_version < "3.9"
+kedro-telemetry>=0.3.1
+kedro-viz>=6.7.0
+notebook
+pytest~=7.2
+pytest-cov~=3.0
+pytest-mock>=1.7.1, <2.0
+ruff~=0.1.8
+setuptools; python_version >= "3.12"
