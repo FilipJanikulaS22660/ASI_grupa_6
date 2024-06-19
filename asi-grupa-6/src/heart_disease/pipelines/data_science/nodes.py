@@ -70,6 +70,7 @@ def evaluate_model(random_forest_classifier: RandomForestClassifier, X_test: pd.
 
 
 
+    wandb.login(key="7cedcc8572677253cbaf3974533bf4979bb5e496")
 
     wandb.init(
         # set the wandb project where this run will be logged

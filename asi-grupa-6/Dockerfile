@@ -1,45 +1,37 @@
-# Użycie obrazu Ubuntu 20.04
-FROM ubuntu:20.04
+ARG BASE_IMAGE=python:3.9-slim
+FROM $BASE_IMAGE as runtime-environment
 
-# Avoid prompts from apt
-ARG DEBIAN_FRONTEND=noninteractive
-
-# Install Python3, pip, i Java
-RUN apt-get -y update && apt-get install -y \
-    python3-dev \
-    python3-pip \
-    apt-utils \
-    build-essential \
-    default-jdk \
-    && rm -rf /var/lib/apt/lists/*
-
+# Install build dependencies and Java
 RUN apt-get update && \
-    apt-get install -y openjdk-8-jdk && \
-    apt-get install -y ant && \
+    apt-get install -y gcc python3-dev default-jdk procps && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/ && \
-    rm -rf /var/cache/oracle-jdk8-installer;
-    
-ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
-RUN export JAVA_HOME
-
+    rm -rf /var/lib/apt/lists/*
 
 # Set JAVA_HOME environment variable
-#ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-#ENV PATH=$JAVA_HOME/bin:$PATH
+ENV JAVA_HOME=/usr/lib/jvm/default-java
+ENV PATH=$JAVA_HOME/bin:$PATH
 
-# Upgrade pip to its latest version
-RUN pip3 install --upgrade pip
+# Install project requirements
+COPY requirements.txt /tmp/requirements.txt
+RUN python -m pip install -U "pip>=21.2,<23.2"
+RUN pip install --no-cache-dir -r /tmp/requirements.txt && rm -f /tmp/requirements.txt
 
-# Aktualizacja setuptools
-RUN pip3 install --upgrade setuptools
+# Add kedro user
+ARG KEDRO_UID=999
+ARG KEDRO_GID=0
+RUN groupadd -f -g ${KEDRO_GID} kedro_group && \
+    useradd -m -d /home/kedro_docker -s /bin/bash -g ${KEDRO_GID} -u ${KEDRO_UID} kedro_docker
 
-# Set the working directory in the container
-WORKDIR /app
+WORKDIR /home/kedro_docker
+USER kedro_docker
 
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+FROM runtime-environment
 
-COPY . .
+# Copy the whole project except what is in .dockerignore
+ARG KEDRO_UID=999
+ARG KEDRO_GID=0
+COPY --chown=${KEDRO_UID}:${KEDRO_GID} . .
+
+EXPOSE 8888
 
 CMD ["kedro", "run"]
