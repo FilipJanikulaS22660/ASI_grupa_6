@@ -1,1 +1,0 @@
-{"columns": ["Predicted", "Actual", "Count"], "data": [["BMI", "BMI", 57223], ["BMI", "Smoking", 1144], ["Smoking", "BMI", 4948], ["Smoking", "Smoking", 644]]}

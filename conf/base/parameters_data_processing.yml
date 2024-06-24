@@ -1,0 +1,8 @@
+# This is a boilerplate parameters config generated for pipeline 'data_processing'
+# using Kedro 0.19.5.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.5/configuration/parameters.html
+output_filepath: "data/01_raw/health_dataset.xlsx"
+db_uri: "postgresql+psycopg2://kedro_user:password@localhost:5432/kedro_db"
+table_name: "health_data"
