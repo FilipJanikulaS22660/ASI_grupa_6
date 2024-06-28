@@ -25,7 +25,7 @@ def create_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=preprocess_hearth_data,
-                inputs="health",
+                inputs="raw_data",
                 outputs="preprocessed_health",
                 name="preprocess_health_node",
             ),

@@ -3,10 +3,18 @@
 #   filepath: data/01_raw/heart-disease.xlsx
 #   load_args:
 #     engine: openpyxl # Use modern Excel engine (the default since Kedro 0.18.0)
+raw_data:
+  type: pandas.ExcelDataset
+  filepath: data/01_raw/health_dataset.xlsx
 
 preprocessed_health:
   type: pandas.ParquetDataset
   filepath: data/02_intermediate/preprocessed_health.pq
+  load_args:
+    engine: pyarrow
+    use_nullable_dtypes: True
+  save_args:
+    engine: pyarrow
 
 random_forest_classifier:
   type: pickle.PickleDataset

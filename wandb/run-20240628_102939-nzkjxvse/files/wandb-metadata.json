@@ -1,0 +1,38 @@
+{
+    "os": "macOS-14.5-arm64-arm-64bit",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-06-28T08:29:40.377199",
+    "startedAt": "2024-06-28T08:29:39.329644",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "run"
+    ],
+    "state": "running",
+    "program": "/opt/anaconda3/envs/kedro/bin/kedro",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/FilipJanikulaS22660/ASI_grupa_6.git",
+        "commit": "b7e5a8dc7ae3a55526c749f2cf4cbe9307a6c3f3"
+    },
+    "email": "s22660@pjwstk.edu.pl",
+    "root": "/Users/filip/Documents/GitHub/ASI_grupa_6",
+    "host": "MBP-Filip",
+    "username": "filip",
+    "executable": "/opt/anaconda3/envs/kedro/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 614.2285575866699
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M2 Pro",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

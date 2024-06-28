@@ -1,1 +1,1 @@
-{"raw_data": {"rows": 319795, "columns": 18}}
+{"raw_data": {"rows": 319795, "columns": 18, "file_size": 21182527}, "preprocessed_health": {"rows": 319795, "columns": 18, "file_size": 1846535}, "X_train": {"rows": 255836, "columns": 17}, "X_test": {"rows": 63959, "columns": 17}}
