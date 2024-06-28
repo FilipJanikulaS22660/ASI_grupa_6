@@ -1,3 +1,16 @@
+"""
+Heart Disease Evaluation App
+
+This module implements a web application using Streamlit
+that allows users to assess their risk of having
+coronary heart disease (CHD) or myocardial infarction (MI)
+based on a variety of personal health indicators.
+
+Functions:
+- get_input_from_user(): Collects input data from the user.
+- display_user_inputs(df): Displays the user inputs.
+"""
+
 import streamlit as st
 import pandas as pd
 from autogluon.tabular import TabularPredictor
@@ -56,6 +69,21 @@ with KedroSession.create(project_path=project_path) as session:
 
     st.sidebar.header('User Input Parameters')
 
+    # Lists of all available options for categorical variables (with multiple options)
+    age_categories = [
+        '18-24', '25-29', '30-34', '35-39', '40-44',
+        '45-49', '50-54', '55-59', '60-64', '65-69',
+        '70-74', '75-79', '80 or older'
+    ]
+    races = [
+        'White', 'Black', 'Asian', 'American Indian / Alaskan Native', 'Other', 'Hispanic'
+    ]
+    gen_health_options = [
+        'Excellent', 'Very good', 'Good', 'Fair', 'Poor'
+    ]
+    diabetic_options = [
+        'Yes', 'Yes (during pregnancy)', 'No', 'No, borderline diabetes'
+    ]
 
     def get_input_from_user():
         """
@@ -67,15 +95,23 @@ with KedroSession.create(project_path=project_path) as session:
         with st.sidebar.expander("General information"):
             sex = st.selectbox('Sex', [0, 1], format_func=lambda x: 'Male' if x == 1 else 'Female')
             age_category = st.selectbox(
-                'Age Category', list(range(1, 14)), format_func=lambda x: f'Category {x}'
+                'Age Category',
+                range(len(age_categories)),
+                format_func=lambda x: age_categories[x]
             )
+
             race = st.selectbox(
-                'Race', list(range(1, 6)), format_func=lambda x: f'Race {x}'
+                'Race',
+                range(len(races)),
+                format_func=lambda x: races[x]
             )
             bmi = st.slider('Body Mass Index (BMI)', 10.0, 50.0, 25.0)
+
             gen_health = st.selectbox(
-                'Would you say that in general your health is...', list(range(1, 6)),
-                format_func=lambda x: f'Health Level {x}')
+                'Would you say that in general your health is...',
+                range(len(gen_health_options)),
+                format_func=lambda x: gen_health_options[x]
+            )
 
         with st.sidebar.expander("Addictions"):
             smoking = st.selectbox(
@@ -87,8 +123,16 @@ with KedroSession.create(project_path=project_path) as session:
         with st.sidebar.expander("Medical history"):
             stroke = st.selectbox('Have you ever had a stroke?', [0, 1],
                                   format_func=lambda x: 'Yes' if x == 1 else 'No')
+
+            diabetic_options = [
+                'Yes', 'No', 'No, borderline diabetes', 'Yes (during pregnancy)'
+            ]
             diabetic = st.selectbox(
-                'Are you diabetic?', [0, 1], format_func=lambda x: 'Yes' if x == 1 else 'No')
+                'Are you diabetic?',
+                range(len(diabetic_options)),
+                format_func=lambda x: diabetic_options[x]  # Format what the select box should display
+            )
+
             asthma = st.selectbox(
                 'Do you have asthma?', [0, 1], format_func=lambda x: 'Yes' if x == 1 else 'No')
             kidney_disease = st.selectbox(
@@ -139,11 +183,11 @@ with KedroSession.create(project_path=project_path) as session:
 
     # Display input parameters in expanders
     with st.expander("General information"):
-        st.write(f"**Sex**: {df['Sex'][0]}")
-        st.write(f"**Age Category**: {df['AgeCategory'][0]}")
-        st.write(f"**Race**: {df['Race'][0]}")
+        st.write(f"**Sex**: {'Male' if df['Sex'][0] == 1 else 'Female'}")
+        st.write(f"**Age Category**: {age_categories[df['AgeCategory'][0]]}")
+        st.write(f"**Race**: {races[df['Race'][0]]}")
         st.write(f"**BMI**: {df['BMI'][0]}")
-        st.write(f"**General Health**: {df['GenHealth'][0]}")
+        st.write(f"**General Health**: {gen_health_options[df['GenHealth'][0]]}")
 
     with st.expander("Addictions"):
         st.write(f"**Smoking**: {'Yes' if df['Smoking'][0] == 1 else 'No'}")
@@ -151,7 +195,7 @@ with KedroSession.create(project_path=project_path) as session:
 
     with st.expander("Medical history"):
         st.write(f"**Stroke**: {'Yes' if df['Stroke'][0] == 1 else 'No'}")
-        st.write(f"**Diabetic**: {'Yes' if df['Diabetic'][0] == 1 else 'No'}")
+        st.write(f"**Diabetic**: {diabetic_options[df['Diabetic'][0]]}")
         st.write(f"**Asthma**: {'Yes' if df['Asthma'][0] == 1 else 'No'}")
         st.write(f"**Kidney Disease**: {'Yes' if df['KidneyDisease'][0] == 1 else 'No'}")
         st.write(f"**Skin Cancer**: {'Yes' if df['SkinCancer'][0] == 1 else 'No'}")
